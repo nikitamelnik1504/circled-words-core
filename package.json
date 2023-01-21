@@ -1,0 +1,20 @@
+{
+  "name": "circledwords-core",
+  "version": "1.0.0",
+  "description": "Core of NFT creation logic with json validation on the CircledWords site.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "circledwords",
+    "web3",
+    "nft",
+    "metaplex",
+    "solana"
+  ],
+  "author": "Nikita Melnyk",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

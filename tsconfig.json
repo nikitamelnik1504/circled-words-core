@@ -1,0 +1,18 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+  ],
+  "compilerOptions": {
+    "target": "es2019",
+    "skipLibCheck": true,
+    "module": "esnext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "removeComments": false,
+    "esModuleInterop": true,
+    "strict": true
+  }
+}
