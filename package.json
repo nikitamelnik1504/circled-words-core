@@ -7,6 +7,7 @@
     "build:production": "webpack --config webpack.production.js",
     "start": "node dist/server"
   },
+  "type": "commonjs",
   "keywords": [
     "circledwords",
     "web3",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@types/webpack-env": "^1.18.0",
     "clean-webpack-plugin": "^4.0.0",
+    "dotenv": "^16.0.3",
     "ts-loader": "^9.4.2",
     "typescript": "^4.9.4",
     "webpack": "^5.75.0",

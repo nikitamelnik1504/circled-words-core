@@ -6,8 +6,8 @@
     "node_modules",
   ],
   "compilerOptions": {
-    "moduleResolution": "Node",
-    "target": "es2019",
+    "moduleResolution": "node",
+    "target": "esnext",
     "skipLibCheck": true,
     "module": "esnext",
     "rootDir": "src",
