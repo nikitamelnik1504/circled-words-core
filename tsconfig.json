@@ -6,6 +6,7 @@
     "node_modules",
   ],
   "compilerOptions": {
+    "moduleResolution": "Node",
     "target": "es2019",
     "skipLibCheck": true,
     "module": "esnext",

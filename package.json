@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Core of NFT creation logic with json validation on the CircledWords site.",
   "scripts": {
-    "build": "webpack --config webpack.$NODE_ENV.js",
+    "build:development": "webpack --config webpack.development.js",
+    "build:production": "webpack --config webpack.production.js",
     "start": "node dist/server"
   },
   "keywords": [
