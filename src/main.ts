@@ -1,12 +1,11 @@
 import {ApolloServer} from "@apollo/server";
 import resolvers from './resolvers';
-import typeDefs from './type-defs';
 import {startStandaloneServer} from "@apollo/server/standalone";
 import {environment} from "./environment";
 import {
   ApolloServerPluginLandingPageLocalDefault,
 } from "@apollo/server/plugin/landingPage/default";
-
+import typeDefs from './schema.graphql'
 import {ApolloServerPluginLandingPageDisabled} from "@apollo/server/plugin/disabled";
 
 (async () => {

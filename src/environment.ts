@@ -1,3 +1,4 @@
+require('dotenv').config({ path: './.env' })
 const defaultPort = 4000;
 
 interface Environment {
