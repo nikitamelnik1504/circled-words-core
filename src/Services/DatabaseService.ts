@@ -23,6 +23,6 @@ export default class DatabaseService {
 
   constructor() {
     this.connection = connect(environment.database.url);
-    this.nftModel = model<INFT>('NFT', nftSchema);
+    this.nftModel = model<INFT>('NFT', nftSchema, 'NFT');
   }
 };
