@@ -3,5 +3,5 @@ type Query {
 }
 
 type Circled {
-    tokenAddress: String
+    tokenAddress: String!
 }
