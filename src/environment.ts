@@ -5,14 +5,20 @@ interface Environment {
   env: string,
   apollo: {
     introspection: boolean,
+    port: number;
   },
-  port: number | string;
+  database: {
+    url: string
+  }
 }
 
 export const environment: Environment = {
   env: <string>process.env.NODE_ENV,
   apollo: {
     introspection: process.env.APOLLO_INTROSPECTION === 'true',
+    port: <number><unknown>process.env.PORT || defaultPort
   },
-  port: process.env.PORT || defaultPort
+  database: {
+    url: <string>process.env.DATABASE_URL
+  }
 };
